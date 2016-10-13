@@ -1,0 +1,6 @@
+Docker imagery
+Ocean - Linux VM (docker-machine if in cloud, Mac or Windows)
+Docker Whale = Docker Engine / Docker Server / Docker Daemon
+Containers on Whale = Containers themselves (images → container)
+Spun up container = a “service”
+Multiple Whales - Docker Swarm
