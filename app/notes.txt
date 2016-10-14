@@ -4,3 +4,13 @@ Docker Whale = Docker Engine / Docker Server / Docker Daemon
 Containers on Whale = Containers themselves (images → container)
 Spun up container = a “service”
 Multiple Whales - Docker Swarm
+
+Interactive mode
+$ docker exec -it <cont_id> command
+exec lets you run a command inside a running container
+-it 		→ enter container in interactive mode
+bash		→ command (enter bash mode)
+To enter detached container once running …
+Example		→ $ docker exec -it 175cfac1b48a bash
+See Running programs	→ $ ps axu  (just a shell command)
+Exit interactive mode (& return to daemon mode)	 → ctrl-p & ctrl-q
