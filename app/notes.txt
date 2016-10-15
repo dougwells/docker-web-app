@@ -14,3 +14,8 @@ To enter detached container once running …
 Example		→ $ docker exec -it 175cfac1b48a bash
 See Running programs	→ $ ps axu  (just a shell command)
 Exit interactive mode (& return to daemon mode)	 → ctrl-p & ctrl-q
+Framework for thinking about interactive.
+NO "How do I exit the container".
+YES "How do I exit interactive mode and return to daemon mode"
+ctrl-p  & then ctrl-q
+http://stackoverflow.com/questions/25267372/correct-way-to-detach-from-a-container-without-stopping-it
